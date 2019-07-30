@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>thực hành cấu trúc điều kiện</title>
+</head>
+<body>
+    <script type="text/javascript">
+        let input = prompt("Tên đăng nhập:");
+        if (input==="Admin"){
+            let pass=prompt("vui lòng nhập mật khẩu:");
+            if (pass==="themaster") {
+                alert("welcome");
+            } else if (pass==="null") {
+                alert("canceled");
+            } else {
+                alert("wrong password");
+            }
+        } else if (input==="null") {
+            alert("canceld");
+        } else {
+            alert("i don't know you");
+        }
+    </script>
+
+</body>
+</html>
